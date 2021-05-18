@@ -5,7 +5,7 @@ import axios from 'axios'
 import {MemoryRouter} from 'react-router-dom'
 import {posts} from './__data__/testData'
 
-test(async () => {
+it('renders out post widget',async () => {
     const post = posts[0]
     let container
     jest
